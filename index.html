@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Srivastava | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="logo">&lt;Ayush /&gt;</h1>
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#cp">Competitive Programming</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Hello, I'm <span>Ayush Srivastava</span> 👨‍💻</h2>
+      <p class="tagline">Aspiring <span class="highlight">DSA Enthusiast</span> & First-Year CS Student</p>
+      <p class="intro">
+        I solve problems, build projects, and explore coding challenges.<br>
+        Passionate about chess ♟, speedcubing ⏱, and music 🎸.
+      </p>
+      <a href="#contact" class="btn">Let's Connect</a>
+    </div>
+
+    <div class="about-box">
+      <h3>About Me</h3>
+      <p>
+        I'm a 19-year-old Computer Science student at 
+        <strong>Scaler School of Technology (2025–2029)</strong>.  
+        Started coding in Python 3 years ago, now exploring Java, HTML, CSS, and JS.  
+        Beyond coding, I enjoy music and competitive problem solving.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h3 class="section-title">Skills</h3>
+    <div class="skills-grid">
+      <div class="skill-card">Java</div>
+      <div class="skill-card">Python</div>
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">Git</div>
+    </div>
+  </section>
+
+  <section id="cp" class="section">
+    <h3 class="section-title">Competitive Programming</h3>
+    <div class="cp-links">
+      <a href="https://github.com/omnitrix-user" target="_blank" class="cp-card">GitHub</a>
+      <a href="https://leetcode.com/u/ayushh_srivastava/" target="_blank" class="cp-card">LeetCode</a>
+      <a href="https://codeforces.com/profile/omnitrix_user_" target="_blank" class="cp-card">Codeforces</a>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h3 class="section-title">Projects</h3>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h4>HTML & CSS Assignments</h4>
+        <p>Static websites and UI designs from my learning journey.</p>
+      </div>
+      <div class="project-card">
+        <h4>Java Assignments</h4>
+        <p>Programs showing OOP, DSA, and problem-solving skills.</p>
+      </div>
+      <div class="project-card">
+        <h4>Python Scripts</h4>
+        <p>Mini projects and automation experiments in Python.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <h3 class="section-title">Education</h3>
+    <p><strong>Scaler School of Technology</strong></p>
+    <p>B.Tech in Computer Science & Artificial Intelligence (2025–2029)</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h3 class="section-title">Contact</h3>
+    <p>Reach out to collaborate or connect:</p>
+    <div class="contact-links">
+      <a href="mailto:ayushsri4806@gmail.com" class="btn">Email</a>
+      <a href="https://www.linkedin.com/in/ayush-srivastava-80152430a" target="_blank" class="btn">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Ayush Srivastava. Built with ❤️ & HTML/CSS.</p>
+  </footer>
+
+</body>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0d0d0f;
+  color: #e5e7eb;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.navbar {
+  background: #111;
+  border-bottom: 1px solid #333;
+  padding: 1.2rem 2rem;
+  position: fixed; width: 100%; top: 0; z-index: 1000;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.logo {
+  color: #a855f7;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.nav-links {
+  list-style: none; display: flex; gap: 2rem;
+}
+.nav-links a {
+  color: #ccc; text-decoration: none; transition: 0.3s;
+  font-size: 1.1rem;
+}
+.nav-links a:hover { color: #a855f7; }
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6rem 2rem 2rem;
+  gap: 3rem;
+  flex-wrap: wrap;
+  background: linear-gradient(145deg, #0d0d0f, #1e1e24);
+}
+.hero-content {
+  flex: 1;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.hero h2 { font-size: 2.5rem; }
+.hero span { color: #a855f7; }
+.tagline { color: #9ca3af; font-size: 1.3rem; }
+.highlight { color: #d946ef; }
+.intro { font-size: 1.1rem; }
+.btn {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background: #a855f7;
+  border: 2px solid #a855f7;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 600;
+  text-align: center;
+}
+.btn:hover { background: transparent; color: #a855f7; }
+
+.about-box {
+  flex: 1;
+  max-width: 500px;
+  background: #1e1e24;
+  padding: 2.5rem;
+  border-radius: 10px;
+  border: 1px solid #333;
+  line-height: 1.8;
+  font-size: 1.2rem;
+}
+.about-box h3 {
+  color: #a855f7;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.section {
+  max-width: 950px;
+  margin: auto;
+  padding: 6rem 1.5rem;
+}
+.section-title {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #a855f7;
+  text-align: center;
+  border-bottom: 2px solid #a855f7;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+}
+.skill-card {
+  border: 1px solid #333;
+  background: #1e1e24;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.skill-card:hover { border-color: #a855f7; color: #a855f7; }
+
+.cp-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cp-card {
+  padding: 1.2rem 2.5rem;
+  border: 1px solid #333;
+  background: #1e1e24;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.cp-card:hover { border-color: #d946ef; color: #d946ef; }
+
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+.project-card {
+  border: 1px solid #333;
+  background: #1e1e24;
+  padding: 2rem;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.project-card h4 {
+  color: #a855f7;
+  margin-bottom: 0.8rem;
+  font-size: 1.5rem;
+}
+.project-card p { font-size: 1.2rem; }
+.project-card:hover {
+  border-color: #a855f7;
+  transform: translateY(-4px);
+}
+
+.section p {
+  font-size: 1.3rem;
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+.contact-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.contact-links .btn {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  flex: 1 1 150px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  border-top: 1px solid #333;
+  background: #111;
+  color: #777;
+  font-size: 1.1rem;
+}
+</style>
+</html>
